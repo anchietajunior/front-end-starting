@@ -12,13 +12,13 @@ bola.addEventListener('click', function() {
 
 
         var table = document.createElement('table');
-        table.style = 'width:500px;border:1px solid #CCC;';
+        table.style = 'width:250px;border:1px solid #CCC;';
         var tbody = document.createElement('tbody');
             let tr = document.createElement('tr');
         
             // 1
             let td = document.createElement('td');
-            td.style = 'width:100px;border:1px solid #CCC;';
+            td.style = 'width:250px; #CCC;';
             let span = document.createElement('span');
             span.innerHTML = element.date;
             td.appendChild(span);
@@ -26,7 +26,7 @@ bola.addEventListener('click', function() {
         
             // 2
             td = document.createElement('td');
-            td.style = 'border:1px solid #CCC;';
+            td.style = '#CCC;';
             span = document.createElement('span');
             span.innerHTML = element.weekday;
             td.appendChild(span);
