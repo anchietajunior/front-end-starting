@@ -26,11 +26,13 @@
   width: 75px;
   align: center;
   background-color: rgb(137, 95, 177);
+  padding: 5px;
   color:cornsilk;
 }
 
 .col2{
   width: 425px;
+  padding: 5px;
   background-color: rgb(137, 95, 177);
   color:cornsilk;
   margin-bottom: 30px;

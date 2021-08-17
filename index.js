@@ -18,13 +18,14 @@ bola.addEventListener('click', function() {
         var tbody = document.createElement('tbody');
         let tr = document.createElement('tr');
         let td = document.createElement('td');
-        td.style = 'width:100px; #CCC; font-weight: bold;';
+        td.style = 'width:100px; font-weight: bold; padding: 3px;font-size:18px;';
         let span = document.createElement('span');
             span.innerHTML = element.date;
         td.appendChild(span);
         tr.appendChild(td);
         // coluna 02
         td = document.createElement('td');
+        td.style = 'font-size:18px;';
         span = document.createElement('span');
           span.innerHTML = element.celebrations[0].title;
         td.appendChild(span);
