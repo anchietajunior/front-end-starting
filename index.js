@@ -13,8 +13,9 @@ bola.addEventListener('click', function() {
 
      .then(function(data) {
       data.forEach(element => {
-        console.log(element.celebrations[0].title);
+       // console.log(element.celebrations[0].title);
         // coluna 01
+        function tableCreate(){
         var tbody = document.createElement('tbody');
         let tr = document.createElement('tr');
         let td = document.createElement('td');
@@ -35,10 +36,15 @@ bola.addEventListener('click', function() {
         tbody.appendChild(tr);
         myDropdown.appendChild(tbody);
         document.body.appendChild(myDropdown);
+      }
+      tableCreate();
       })
-
     }) 
-
+    /*
+    var table = document.getElementById("tableId");
+    var totalRowCount = table.rows.length;
+    console.log(totalRowCount);
+    */
 })
 
 
