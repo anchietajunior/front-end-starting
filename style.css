@@ -1,6 +1,42 @@
+
+
 .circulo {
   width: 200px;
   height: 200px;
-  border-radius: 50%;
-  background-color: red;
+  border-radius: 100%;
+  background-color: rgb(48, 32, 102);
+  margin-left: auto;
+  margin-right: auto;
 }
+.circulo:hover{
+  background-color: rgb(90, 72, 146);
+}
+
+.dropdown-content {
+  display: none;
+  color:rgb(48, 32, 102);
+  background-color: #e9dcee;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.col1{
+  width: 75px;
+  align: center;
+  background-color: rgb(137, 95, 177);
+  padding: 5px;
+  color:cornsilk;
+}
+
+.col2{
+  width: 425px;
+  padding: 5px;
+  background-color: rgb(137, 95, 177);
+  color:cornsilk;
+  margin-bottom: 30px;
+}
+
+
+.show {display:block;}
